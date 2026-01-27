@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Booking - Book Flight</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+    <h1>✈ Flight Booking System</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+    </nav>
+    <button id="themeToggle">Theme</button>
+</header>
+
+<section class="booking-section">
+    <h2>Book Your Flight</h2>
+    <div class="login-box">
+        <label for="fromPlace">From:</label>
+        <select id="fromPlace">
+            <option value="">Select Departure</option>
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Miami">Miami</option>
+        </select>
+
+        <label for="toPlace">To:</label>
+        <select id="toPlace">
+            <option value="">Select Destination</option>
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Miami">Miami</option>
+        </select>
+
+        <button id="bookBtn" class="primary-btn">Book Flight</button>
+    </div>
+    <p id="bookingMsg"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
