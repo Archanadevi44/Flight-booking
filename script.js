@@ -48,8 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             document.getElementById('bookingMsg').style.color = "green";
-            document.getElementById('bookingMsg').textContent = `Flight booked from ${fromPlace} to ${toPlace}! ✈`;
+            document.getElementById('bookingMsg').textContent = `Flight booked from ${fromPlace} to ${toPlace}!`;
         }
     }
 
 });
+
